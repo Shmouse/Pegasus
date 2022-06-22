@@ -7,7 +7,7 @@ This script emulates the hardware function of the Target BluEye emergency servic
 Pegasus is automatically configured for TETRA airwave frequencies in the UK.
 
 ### Usage & Installation
-1. Clone the repository
-2. Run the pegasus_setup.sh file to install all dependancies and add Pegasus to autostart
+1. Clone the repository using `sudo git clone https://github.com/Shmouse/Pegasus`
+2. Run the pegasus_setup.sh file to install all dependancies.
 3. Plug in your USB RTL-SDR device.
 4. Run the pegasus.py file.
