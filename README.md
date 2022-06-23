@@ -2,9 +2,16 @@
 
 ### Overview
 
-This script emulates the hardware function of the Target BluEye emergency services alert system. The concept is to use a rtl-sdr compatible radio receiver to continuously scan the typical emergency band radio frequencies using `rtl_power_fftw` as a scanning frontend to rtl-sdr, and then filter/process the scan results for potential emergency radio sources.
+Pegasus is a light-weight python script designed for scanning TETRA airwave frequencies using an RTL-SDR device and a properly configured Linux machine. While their are limitations with RTL-SDR, it is still a suitable method for detecting nearby TETRA devices.
 
-Pegasus is automatically configured for TETRA airwave frequencies in the UK.
+Dependencies:
+| - libfftw3-dev
+- libtclap-dev
+- librtlsdr-dev
+- libusb-1.0-0-dev
+- cmake
+- rtl-sdr (keenerd experimental branch: https://github.com/keenerd/rtl-sdr.git)
+- rtl_power_fftw: https://github.com/AD-Vega/rtl-power-fftw.git |
 
 ### Usage & Installation
 1. Clone the repository using `sudo git clone https://github.com/Shmouse/Pegasus`
