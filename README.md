@@ -11,8 +11,8 @@ Pegasus is a light-weight python script designed for scanning TETRA airwave freq
 - librtlsdr-dev
 - libusb-1.0-0-dev
 - cmake
-- rtl-sdr (keenerd experimental branch: https://github.com/keenerd/rtl-sdr.git)
-- rtl_power_fftw: https://github.com/AD-Vega/rtl-power-fftw.git |
+- [rtl-sdr](https://www.google.com](https://github.com/keenerd/rtl-sdr.git)
+- [rtl_power_fftw](https://github.com/AD-Vega/rtl-power-fftw.git)
 ```
 
 ### Usage & Installation
