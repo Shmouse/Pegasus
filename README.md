@@ -11,3 +11,6 @@ Pegasus is automatically configured for TETRA airwave frequencies in the UK.
 2. Run the pegasus_setup.sh file to install all dependancies.
 3. Plug in your USB RTL-SDR device.
 4. Run the pegasus.py file.
+
+### Options
+`--d` or `--debug` - Puts Pegasus into debug mode, will display dBm values across the whole range so it their changes can be easily monitored.
