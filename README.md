@@ -23,4 +23,4 @@ Pegasus is a light-weight python script designed for scanning TETRA airwave freq
 5. Run the pegasus.py file with `sudo python3 pegasus.py`.
 
 ### Options
-`--d` or `--debug` - Puts Pegasus into debug mode, will display dBm values across the whole range so it their changes can be easily monitored.
+`--d` or `--debug` - Puts Pegasus into debug mode, will display dBm values across the whole range so their changes can be easily monitored.
