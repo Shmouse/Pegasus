@@ -54,7 +54,7 @@ powerfftw_path = "/usr/local/bin/rtl_power_fftw"
 spect = "-f " + str(freqmin) + ":" + str(freqmax) #Some more options
 otherargs = "-c -t 1" #Some options
 thresh = -39 #The dBm threshold to begin triggering alerts. Alert will adjust accordingly.
-averages = [] #Our list for average dBm calulcation.
+averages = [] #Our list for average dBm calculation.
 maxav = 1000 #The amount of numbers we hold as averages until we refresh our averages list.
 sigstrength = 0 #Signal strength variable for later use.
 
