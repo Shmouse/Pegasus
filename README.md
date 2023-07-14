@@ -18,7 +18,7 @@ Pegasus is a light-weight python script designed for scanning TETRA airwave freq
 ### Usage & Installation
 1. Update the system using `sudo apt-get update` and `sudo apt-get upgrade`
 2. Clone the repository using `sudo git clone https://github.com/Shmouse/Pegasus`
-3. Run the pegasus_setup.sh file, this setup will attempt to instalall the required dependancies.
+3. Run the pegasus_setup.sh file, this setup will attempt to install all the required dependancies.
 4. Plug in your USB RTL-SDR device.
 5. Run the pegasus.py file with `sudo python3 pegasus.py`.
 
